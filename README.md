@@ -17,12 +17,19 @@ Check Accession: https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR6334436
 Example of how to structure the slurm file: 
 
 #!/bin/bash
+
 #SBATCH -N 1
+
 #SBATCH -n 1
+
 #SBATCH --time=1-00:00:00
+
 #SBATCH --mem=102400
+
 #SBATCH -p standard
+
 #SBATCH -A dolatshahi_rivanna
+
 #SBATCH -o input_fastq_dump.out
 
 
