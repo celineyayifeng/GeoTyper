@@ -8,21 +8,23 @@ GeoTyper is a standardized pipeline that integrates multiple scRNA-seq tools for
 
 1_input_fastq_dump.slurm
 
-Purpose: download FASTQ files from NCBI GEO and (optionally) split files into Read 1 (R1 → cell barcodes) and Read 2 (R2 → tagged cDNA)
+- Purpose: download FASTQ files from NCBI GEO and (optionally) split files into Read 1 (R1 → cell barcodes) and Read 2 (R2 → tagged cDNA)
 
-Directions: when submitting job list FASTQ SRA Run Selector Ascension Numbers after slurm file name
+- Directions: when submitting job list FASTQ SRA Run Selector Ascension Numbers after slurm file name
 
 *$ in file signifies all variable names passed to file
 
-Ex. sbatch input_fastq_dump.slurm SRR14684940 SRR14684940 → runs for the first SRA file and then the second
+- Ex. sbatch input_fastq_dump.slurm SRR14684940 SRR14684940 → runs for the first SRA file and then the second
 
 ### 2. Implementing and running Cellranger Count or Alevin
 
+#### Cellranger Count
+
 2_input_cellranger_count.slurm
 
-Purpose: run Cellranger Count for paired FASTQ files (i.e., R1, R2) from 10X Genomics
+- Purpose: run Cellranger Count for paired FASTQ files (i.e., R1, R2) from 10X Genomics
 
-Output: barcodes.tsv.gz (cell barcodes → columns), features.tsv.gz (gene names → rows), matrix.mtx.gz (counts data)
+- Output: barcodes.tsv.gz (cell barcodes → columns), features.tsv.gz (gene names → rows), matrix.mtx.gz (counts data)
 
 Directions:
 When submitting a job supply the following arguments after the slurm file name:
@@ -37,6 +39,8 @@ Example:
 - Path to directory with FASTQs: /project/Dolatshahi_Lab/MSDS/Clean_Final/cellranger_lymhoma/test
 - Path to samples to use in analysis: test_sample1,test_sample2,test_sample3 
 - Path to transcriptome reference: /project/Dolatshahi_Lab/MSDS/Clean_Final/refdata-cellranger-GRCh38-3.0.0
+
+#### Alevin
 
 2_input_run_alevin.slurm
 
@@ -62,9 +66,9 @@ Purpose: run an R script (e.g., with Seurat code) and output a PDF file (with pl
 
 Directions:
 
-When submitting a job add the path to the R script(s) to convert to PDF after the slurm file name
+- When submitting a job add the path to the R script(s) to convert to PDF after the slurm file name
 
-Ex. sbatch 3_input_R_to_pdf.slurm lymphoma.R
+- Ex. sbatch 3_input_R_to_pdf.slurm lymphoma.R
 
 3_input_Rmd_to_html.slurm
 
@@ -72,13 +76,13 @@ Purpose: run an R script or .Rmd file and knit to an html file
 
 Directions:
 
-When submitting a job supply the following arguments after the slurm file name:
+- When submitting a job supply the following arguments after the slurm file name:
 
-The path to the R script or .Rmd file (‘$1’ in slurm file)
+- The path to the R script or .Rmd file (‘$1’ in slurm file)
 
-The desired name of the output html file (output_file=’$2’ in file file)
+- The desired name of the output html file (output_file=’$2’ in file file)
 
-Ex. sbatch 3_input_Rmd_to_html.slurm lymphoma.Rmd lymphoma_data.html
+- Ex. sbatch 3_input_Rmd_to_html.slurm lymphoma.Rmd lymphoma_data.html
 
 ## Additional Resources 
 
