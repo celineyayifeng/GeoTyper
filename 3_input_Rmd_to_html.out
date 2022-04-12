@@ -1,0 +1,433 @@
+
+
+processing file: alevin_cell_type_id_methods.Rmd
+  |                                                                              |                                                                      |   0%  |                                                                              |.                                                                     |   1%
+  ordinary text without R code
+
+  |                                                                              |.                                                                     |   2%
+label: setup (with options) 
+List of 1
+ $ include: logi FALSE
+
+  |                                                                              |..                                                                    |   2%
+  ordinary text without R code
+
+  |                                                                              |..                                                                    |   3%
+label: unnamed-chunk-1 (with options) 
+List of 1
+ $ echo: logi FALSE
+
+  |                                                                              |...                                                                   |   4%
+  ordinary text without R code
+
+  |                                                                              |...                                                                   |   5%
+label: unnamed-chunk-2
+  |                                                                              |....                                                                  |   6%
+  ordinary text without R code
+
+
+label: unnamed-chunk-3
+  |                                                                              |.....                                                                 |   7%
+  ordinary text without R code
+
+  |                                                                              |......                                                                |   8%
+label: unnamed-chunk-4
+  |                                                                              |......                                                                |   9%
+  ordinary text without R code
+
+  |                                                                              |.......                                                               |  10%
+label: unnamed-chunk-5
+
+  ordinary text without R code
+
+  |                                                                              |........                                                              |  11%
+label: unnamed-chunk-6
+Performing log-normalization
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+  |                                                                              |........                                                              |  12%
+  ordinary text without R code
+
+  |                                                                              |.........                                                             |  13%
+label: unnamed-chunk-7
+Calculating gene variances
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Calculating feature variances of standardized and clipped values
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+  |                                                                              |..........                                                            |  14%
+  ordinary text without R code
+
+
+label: unnamed-chunk-8
+  |                                                                              |...........                                                           |  15%
+  ordinary text without R code
+
+  |                                                                              |...........                                                           |  16%
+label: unnamed-chunk-9
+  |                                                                              |                                                                      |   0%  |                                                                              |=====                                                                 |   7%  |                                                                              |==========                                                            |  14%  |                                                                              |===============                                                       |  21%  |                                                                              |====================                                                  |  29%  |                                                                              |=========================                                             |  36%  |                                                                              |==============================                                        |  43%  |                                                                              |===================================                                   |  50%  |                                                                              |========================================                              |  57%  |                                                                              |=============================================                         |  64%  |                                                                              |==================================================                    |  71%  |                                                                              |=======================================================               |  79%  |                                                                              |============================================================          |  86%  |                                                                              |=================================================================     |  93%  |                                                                              |======================================================================| 100%
+  |                                                                              |............                                                          |  17%
+  ordinary text without R code
+
+  |                                                                              |............                                                          |  18%
+label: unnamed-chunk-10
+  |                                                                              |.............                                                         |  18%
+  ordinary text without R code
+
+  |                                                                              |.............                                                         |  19%
+label: unnamed-chunk-11
+  |                                                                              |..............                                                        |  20%
+  ordinary text without R code
+
+  |                                                                              |...............                                                       |  21%
+label: unnamed-chunk-12
+  |                                                                              |...............                                                       |  22%
+  ordinary text without R code
+
+  |                                                                              |................                                                      |  22%
+label: unnamed-chunk-13
+  |                                                                              |................                                                      |  23%
+  ordinary text without R code
+
+  |                                                                              |.................                                                     |  24%
+label: unnamed-chunk-14
+  |                                                                              |.................                                                     |  25%
+  ordinary text without R code
+
+  |                                                                              |..................                                                    |  26%
+label: unnamed-chunk-15
+
+  ordinary text without R code
+
+  |                                                                              |...................                                                   |  27%
+label: unnamed-chunk-16
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+  |                                                                              |....................                                                  |  28%
+  ordinary text without R code
+
+  |                                                                              |....................                                                  |  29%
+label: unnamed-chunk-17
+  |                                                                              |.....................                                                 |  30%
+  ordinary text without R code
+
+
+label: unnamed-chunk-18
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+  |                                                                              |......................                                                |  31%
+  ordinary text without R code
+
+  |                                                                              |......................                                                |  32%
+label: unnamed-chunk-19
+  |                                                                              |.......................                                               |  33%
+  ordinary text without R code
+
+  |                                                                              |........................                                              |  34%
+label: unnamed-chunk-20
+
+  ordinary text without R code
+
+  |                                                                              |.........................                                             |  35%
+label: unnamed-chunk-21 (with options) 
+List of 1
+ $ warning: logi FALSE
+
+  |                                                                              |.........................                                             |  36%
+  ordinary text without R code
+
+  |                                                                              |..........................                                            |  37%
+label: unnamed-chunk-22 (with options) 
+List of 1
+ $ warning: logi FALSE
+
+  |                                                                              |..........................                                            |  38%
+  ordinary text without R code
+
+  |                                                                              |...........................                                           |  38%
+label: unnamed-chunk-23
+  |                                                                              |...........................                                           |  39%
+  ordinary text without R code
+
+  |                                                                              |............................                                          |  40%
+label: unnamed-chunk-24
+  |                                                                              |.............................                                         |  41%
+  ordinary text without R code
+
+  |                                                                              |.............................                                         |  42%
+label: unnamed-chunk-25
+  |                                                                              |..............................                                        |  42%
+  ordinary text without R code
+
+  |                                                                              |..............................                                        |  43%
+label: unnamed-chunk-26
+  |                                                                              |...............................                                       |  44%
+  ordinary text without R code
+
+  |                                                                              |...............................                                       |  45%
+label: unnamed-chunk-27
+  |                                                                              |................................                                      |  46%
+  ordinary text without R code
+
+
+label: unnamed-chunk-28
+  |                                                                              |.................................                                     |  47%
+  ordinary text without R code
+
+  |                                                                              |..................................                                    |  48%
+label: unnamed-chunk-29
+  |                                                                              |..................................                                    |  49%
+  ordinary text without R code
+
+  |                                                                              |...................................                                   |  50%
+label: unnamed-chunk-30
+
+  ordinary text without R code
+
+  |                                                                              |....................................                                  |  51%
+label: unnamed-chunk-31
+  |                                                                              |....................................                                  |  52%
+  ordinary text without R code
+
+  |                                                                              |.....................................                                 |  53%
+label: unnamed-chunk-32
+  |                                                                              |......................................                                |  54%
+  ordinary text without R code
+
+
+label: unnamed-chunk-33
+  |                                                                              |.......................................                               |  55%
+  ordinary text without R code
+
+  |                                                                              |.......................................                               |  56%
+label: unnamed-chunk-34
+  |                                                                              |........................................                              |  57%
+  ordinary text without R code
+
+  |                                                                              |........................................                              |  58%
+label: unnamed-chunk-35
+  |                                                                              |.........................................                             |  58%
+  ordinary text without R code
+
+  |                                                                              |.........................................                             |  59%
+label: unnamed-chunk-36
+  |                                                                              |..........................................                            |  60%
+  ordinary text without R code
+
+  |                                                                              |...........................................                           |  61%
+label: unnamed-chunk-37
+  |                                                                              |...........................................                           |  62%
+  ordinary text without R code
+
+  |                                                                              |............................................                          |  62%
+label: unnamed-chunk-38
+  |                                                                              |............................................                          |  63%
+  ordinary text without R code
+
+  |                                                                              |.............................................                         |  64%
+label: unnamed-chunk-39
+  |                                                                              |.............................................                         |  65%
+  ordinary text without R code
+
+  |                                                                              |..............................................                        |  66%
+label: unnamed-chunk-40
+
+  ordinary text without R code
+
+  |                                                                              |...............................................                       |  67%
+label: unnamed-chunk-41
+  |                                                                              |................................................                      |  68%
+  ordinary text without R code
+
+  |                                                                              |................................................                      |  69%
+label: unnamed-chunk-42
+  |                                                                              |.................................................                     |  70%
+  ordinary text without R code
+
+
+label: unnamed-chunk-43
+  |                                                                              |..................................................                    |  71%
+  ordinary text without R code
+
+  |                                                                              |..................................................                    |  72%
+label: unnamed-chunk-44
+Performing log-normalization
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+  |                                                                              |...................................................                   |  73%
+  ordinary text without R code
+
+  |                                                                              |....................................................                  |  74%
+label: unnamed-chunk-45
+Calculating gene variances
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Calculating feature variances of standardized and clipped values
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+
+  ordinary text without R code
+
+  |                                                                              |.....................................................                 |  75%
+label: unnamed-chunk-46 (with options) 
+List of 1
+ $ message: logi FALSE
+
+Centering and scaling data matrix
+  |                                                                              |                                                                      |   0%  |                                                                              |=====                                                                 |   7%  |                                                                              |==========                                                            |  14%  |                                                                              |===============                                                       |  21%  |                                                                              |====================                                                  |  29%  |                                                                              |=========================                                             |  36%  |                                                                              |==============================                                        |  43%  |                                                                              |===================================                                   |  50%  |                                                                              |========================================                              |  57%  |                                                                              |=============================================                         |  64%  |                                                                              |==================================================                    |  71%  |                                                                              |=======================================================               |  79%  |                                                                              |============================================================          |  86%  |                                                                              |=================================================================     |  93%  |                                                                              |======================================================================| 100%
+PC_ 1 
+Positive:  S100A9, FCN1, MNDA, LYZ, CST3, CTSS, S100A8, TYMP, AIF1, FGL2 
+	   PSAP, SERPINA1, VCAN, LST1, CSTA, MS4A6A, LGALS1, CPVL, KLF4, CD14 
+	   S100A12, CD68, GRN, FTL, TYROBP, AC007192.1, MPEG1, NCF2, CFD, FCER1G 
+Negative:  LTB, TRAC, CD3D, TRBC2, IL32, IL7R, TCF7, BCL11B, CD247, ISG20 
+	   CD7, CD27, IFITM1, AL121845.3, GZMM, TRBC1, IFITM2, CTSW, NOSIP, SYNE2 
+	   KLRB1, AQP3, CCR7, GZMA, CCL5, KLRG1, ITM2A, PEBP1, HOPX, FKBP11 
+PC_ 2 
+Positive:  IFITM2, VIM, S100A4, CD247, GZMM, S100A10, IL32, CD7, EIF4A1, ANXA1 
+	   S100A6, NKG7, RPL17, GZMA, FOS, CD3D, PRF1, CST7, KLRB1, TRAC 
+	   IL7R, KLRD1, KLRG1, HOPX, TRBC2, GNLY, BCL11B, IFITM1, CALR, S100A11 
+Negative:  CAVIN2, PF4, AC000093.1, TUBB1, PPBP, GNG11, GP9, CD9, TREML1, CMTM5 
+	   CLU, HIST1H2AC, SPARC, GP1BB, MTURN, PTCRA, ACRBP, NRGN, CTTN, ITGA2B 
+	   PRKAR2B, TMEM40, SMOX, PGRMC1, CLDN5, HBG2, MMD, TSC22D1, PF4V1, MAP3K7CL 
+PC_ 3 
+Positive:  CD79A, IGHM, MS4A1, CD79B, BANK1, BCL11A, CD74, IGHD, TNFRSF13C, HLA-DRA 
+	   HLA-DPA1, TCL1A, HLA-DPB1, HLA-DRB1, IGKC, VPREB3, CD22, FCER2, RALGPS2, PLPP5 
+	   FAM129C, HLA-DMA, SPIB, HLA-DOB, FCRLA, BLK, TSPAN13, FCRL5, IGLC2, HLA-DMB 
+Negative:  CTSW, IL32, CD247, GZMM, CD7, GZMA, NKG7, CCL5, PRF1, S100A4 
+	   CD3D, CST7, ANXA1, KLRB1, IFITM2, TRAC, IL7R, GNLY, KLRG1, BCL11B 
+	   TRBC1, SRGN, MATK, IL2RB, ACTG1, GAPDH, HOPX, KLRF1, FGFBP2, TRGC2 
+PC_ 4 
+Positive:  IL7R, TCF7, LEF1, CD3D, MAL, CCR7, TRAC, LTB, NOSIP, BCL11B 
+	   PASK, NELL2, CD27, TSHZ2, FHIT, EGR1, RGCC, VIM, CD40LG, RGS10 
+	   AQP3, SLC2A3, MTO1, BEX3, COTL1, S100A12, LRRN3, TRBC2, SESN3, S100A8 
+Negative:  GZMB, CLIC3, GNLY, NKG7, KLRF1, SPON2, PRF1, CST7, FGFBP2, KLRD1 
+	   GZMA, ADGRG1, TRDC, HOPX, CCL4, TTC38, IL2RB, MATK, CTSW, RHOC 
+	   C12rf75, MYOM2, FCGR3A, TBX21, AKR1C3, GZMH, S1PR5, PLAC8, SH2D1B, CD160 
+PC_ 5 
+Positive:  SERPINF1, CLEC4C, LILRA4, SCT, PACSIN1, SMPD3, TPM2, IL3RA, DERL3, LRRC26 
+	   NRP1, DNASE1L3, MYBL2, ITM2C, GAS6, TNFRSF21, MZB1, UGCG, PLD4, CIB2 
+	   PPP1R14B, LAMP5, ZFAT, SLC41A2, RUNX2, TXNDC5, CUX2, JCHAIN, PPM1J, CCDC50 
+Negative:  GNLY, FGFBP2, KLRF1, PRF1, ADGRG1, CST7, KLRD1, NKG7, TRDC, CCL4 
+	   SPON2, IGHD, MS4A1, HOPX, CD79B, TTC38, GZMA, FCGR3A, MYOM2, CD79A 
+	   TBX21, IL2RB, MATK, TNFRSF13C, GZMH, S1PR5, SH2D1B, FCER2, TCL1A, BANK1 
+  |                                                                              |.....................................................                 |  76%
+  ordinary text without R code
+
+  |                                                                              |......................................................                |  77%
+label: unnamed-chunk-47
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+  |                                                                              |......................................................                |  78%
+  ordinary text without R code
+
+  |                                                                              |.......................................................               |  78%
+label: unnamed-chunk-48 (with options) 
+List of 1
+ $ message: logi FALSE
+
+17:27:27 UMAP embedding parameters a = 0.9922 b = 1.112
+17:27:27 Read 1150 rows and found 10 numeric columns
+17:27:27 Using Annoy for neighbor search, n_neighbors = 30
+17:27:27 Building Annoy index with metric = cosine, n_trees = 50
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+17:27:27 Writing NN index file to temp file /tmp/Rtmpyo1zwf/file1dc0649981418
+17:27:27 Searching Annoy index using 1 thread, search_k = 3000
+17:27:27 Annoy recall = 100%
+17:27:29 Commencing smooth kNN distance calibration using 1 thread
+17:27:31 Initializing from normalized Laplacian + noise
+17:27:31 Commencing optimization for 500 epochs, with 43592 positive edges
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+17:27:36 Optimization finished
+  |                                                                              |.......................................................               |  79%
+  ordinary text without R code
+
+  |                                                                              |........................................................              |  80%
+label: unnamed-chunk-49
+  |                                                                              |.........................................................             |  81%
+  ordinary text without R code
+
+  |                                                                              |.........................................................             |  82%
+label: unnamed-chunk-50 (with options) 
+List of 2
+ $ message: logi FALSE
+ $ warning: logi FALSE
+
+  |                                                                              |..........................................................            |  82%
+  ordinary text without R code
+
+  |                                                                              |..........................................................            |  83%
+label: unnamed-chunk-51
+  |                                                                              |...........................................................           |  84%
+  ordinary text without R code
+
+  |                                                                              |...........................................................           |  85%
+label: unnamed-chunk-52
+  |                                                                              |............................................................          |  86%
+  ordinary text without R code
+
+
+label: unnamed-chunk-53
+  |                                                                              |.............................................................         |  87%
+  ordinary text without R code
+
+  |                                                                              |..............................................................        |  88%
+label: unnamed-chunk-54
+  |                                                                              |..............................................................        |  89%
+  ordinary text without R code
+
+  |                                                                              |...............................................................       |  90%
+label: unnamed-chunk-55
+
+  ordinary text without R code
+
+  |                                                                              |................................................................      |  91%
+label: unnamed-chunk-56
+  |                                                                              |................................................................      |  92%
+  ordinary text without R code
+
+  |                                                                              |.................................................................     |  93%
+label: unnamed-chunk-57
+  |                                                                              |..................................................................    |  94%
+  ordinary text without R code
+
+
+label: unnamed-chunk-58
+  |                                                                              |...................................................................   |  95%
+  ordinary text without R code
+
+  |                                                                              |...................................................................   |  96%
+label: unnamed-chunk-59
+  |                                                                              |....................................................................  |  97%
+  ordinary text without R code
+
+  |                                                                              |....................................................................  |  98%
+label: unnamed-chunk-60
+  |                                                                              |..................................................................... |  98%
+  ordinary text without R code
+
+  |                                                                              |..................................................................... |  99%
+label: unnamed-chunk-61
+  |                                                                              |......................................................................| 100%
+  ordinary text without R code
+
+
+output file: alevin_cell_type_id_methods.knit.md
+
+/apps/software/standard/core/pandoc/2.17/bin/pandoc +RTS -K512m -RTS alevin_cell_type_id_methods.knit.md --to html4 --from markdown+autolink_bare_uris+tex_math_single_backslash --output alevin_cell_type_id_methods.html --lua-filter /sfs/qumulo/qhome/cew4pf/R/goolf/4.1/rmarkdown/rmarkdown/lua/pagebreak.lua --lua-filter /sfs/qumulo/qhome/cew4pf/R/goolf/4.1/rmarkdown/rmarkdown/lua/latex-div.lua --self-contained --variable bs3=TRUE --standalone --section-divs --template /sfs/qumulo/qhome/cew4pf/R/goolf/4.1/rmarkdown/rmd/h/default.html --no-highlight --variable highlightjs=1 --variable theme=bootstrap --include-in-header /tmp/Rtmpyo1zwf/rmarkdown-str1dc06273a4452.html --mathjax --variable 'mathjax-url:https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' 
+
+Output created: alevin_cell_type_id_methods.html
+There were 50 or more warnings (use warnings() to see the first 50)

@@ -1,0 +1,46 @@
+---
+title: "actinn_method"
+author: "Yayi Feng"
+date: "4/11/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## **ACTINN Method**
+
+### **NOTE: This is for generating the UMAP only after running ACTINN as a Python script to classify the cells.**
+
+
+```{r}
+# Plot use the predicted label
+# Directory path to the text file with predicted labels
+path = "/project/Dolatshahi_Lab/MSDS/Clean_Final/ACTINN/predicted_labelPBMC.txt"
+label = read.table(path, sep="\t", header=TRUE, row.names=1)
+newseurat$actinn_label = label[names(Idents(newseurat)),1]
+actinn_plot = DimPlot(newseurat, reduction="umap", group.by="actinn_label", label = T, repel = T, pt.size=1) + labs(title="")
+no_legend_actinn_plot = DimPlot(newseurat, reduction="umap", group.by="actinn_label", label = T, repel = T, pt.size=1) + labs(title="") + NoLegend()
+actinn_plot
+```
+
+```{r}
+# create a dataframe with cell ID (barcode) and type
+
+cells = names(newseurat$actinn_label)
+
+labels = unname(newseurat$actinn_label)
+
+actinn_final_df = tibble(cell = cells, Cell_Types = labels)
+```
+
+```{r}
+write.csv(actinn_final_df, file = 'ACTINN_Individual_Cell_with_its_Cell_Type.csv', row.names = FALSE)
+```
+
+
+```{r}
+actinn_final_df %>% group_by(Cell_Types) %>% summarise(count=n()) %>% mutate(percent = count/sum(count)*100) %>% arrange(desc(percent))
+```
+

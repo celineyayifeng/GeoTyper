@@ -1,0 +1,25 @@
+Dimension of the matrix after removing all-zero rows: (27956, 12924)
+2022-04-11 17:35:36.313036: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /opt/slurm/current/lib:/share/rci_apps/common/lib64
+2022-04-11 17:35:36.313079: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+WARNING:tensorflow:From /home/dzc5ta/.local/lib/python3.8/site-packages/tensorflow/python/compat/v2_compat.py:107: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+2022-04-11 17:36:06.694433: E tensorflow/stream_executor/cuda/cuda_driver.cc:271] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2022-04-11 17:36:06.694498: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (udc-ba26-29c1): /proc/driver/nvidia/version does not exist
+2022-04-11 17:36:06.695257: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Cell Types in training set: {'Granulocyte': 0, 'T cell': 1, 'NK cell': 2, 'Monocyte': 3, 'B cell': 4}
+# Trainng cells: 1000
+Cost after epoch 5: 1.032410
+Cost after epoch 10: 0.813095
+Cost after epoch 15: 0.748633
+Cost after epoch 20: 0.698002
+Cost after epoch 25: 0.652694
+Cost after epoch 30: 0.611481
+Cost after epoch 35: 0.573760
+Cost after epoch 40: 0.539147
+Cost after epoch 45: 0.507259
+Cost after epoch 50: 0.477796
+Parameters have been trained!
+Train Accuracy: 1.0
+Run time: 43.42124541848898
