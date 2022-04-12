@@ -119,6 +119,50 @@ cellranger_cell_type_id_methods.Rmd
 immune_marker.csv 
 - Purpose: the csv file extracted from PanglaoDB contains information such as gene markers, cell type names, etc. for identifying cell types with the PanglaoDB method 
 
+### ACTINN
+Run ACTINN using actinn.slurm. 
+- First argument should be the name of the folder containing the barcodes, genes, and matrix (output from cellranger count). 
+- The second argument should be the format that we are using-either 10X_V2, 10X_V3, txt or csv (cellranger outputs 10X_V3). Output will be:
+predicted_label.txt
+test.csv - the count matrix
+test.hf - used for ACTINN
+
+Example1: 
+- sbatch actinn.slurm /project/Dolatshahi_Lab/MSDS/Clean_Final/cellranger_pbmc/filtered_feature_bc_matrix/ 10X_V3
+
+Example2: 
+- sbatch actinn.slurm /project/Dolatshahi_Lab/MSDS/Clean_Final/cellranger_nsclc/run_count_20k/outs/filtered_feature_bc_matrix 10X_V3
+ 
+ 
+Generating a CSV of count matrix:
+
+Running ACTINN.slurm will additionally generate a CSV, However, if you do not wish to run ACTINN you can simply run the following:
+
+module load anaconda
+python actinn_format.py -i arg1 -o arg2 -f arg3
+arg1 - path to data
+arg2 - the name of your choice for the output file 
+arg3 - 10X_V2 or 10X_V3 use 10X_V3 if the files have gz after (ex. matrix.mtx.gz or barcodes.tsv.gz) and 10X_V2 otherwise.
+
+Example:
+- python actinn_format.py -i ./test_data/train_set_10x -o train_set -f 10X_V2
+ 
+Generating Confusion matrices:
+
+Instructions for running:
+ 
+cd to directory
+cd /project/Dolatshahi_Lab/MSDS/Clean_Final/geotyper/
+load anaconda (only need to do once)
+module load anaconda
+execute script
+python confusion.py nameoffile1.csv nameodfile2.csv nameodoutputfile.csv
+ 
+Example:
+
+python confusion.py /project/Dolatshahi_Lab/MSDS/Clean_Final/cellranger_pbmc/pbmc_seurat_labels.csv /project/Dolatshahi_Lab/MSDS/Clean_Final/ACTINN/predicted_labelPBMC.txt ACTINN.csv
+
+
 
 ## Additional Resources 
 
