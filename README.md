@@ -49,9 +49,9 @@ When submitting a job supply the following arguments after the slurm file name:
 
 Example: 
 - Name of output directory: run_count_lymphoma
-- Path to directory with FASTQs: /project/Dolatshahi_Lab/MSDS/Clean_Final/cellranger_lymhoma/test
+- Path to directory with FASTQs: (insert your directory path)/test
 - Path to samples to use in analysis: test_sample1,test_sample2,test_sample3 
-- Path to transcriptome reference: /project/Dolatshahi_Lab/MSDS/Clean_Final/refdata-cellranger-GRCh38-3.0.0
+- Path to transcriptome reference: (insert your directory path)/refdata-cellranger-GRCh38-3.0.0
 
 #### Alevin
 
