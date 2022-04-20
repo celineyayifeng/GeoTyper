@@ -127,7 +127,7 @@ Run ACTINN using actinn.slurm.
 - First argument should be the name of the folder containing the barcodes, genes, and matrix (output from cellranger count). 
 - The second argument should be the format that we are using-either 10X_V2, 10X_V3, txt or csv (cellranger outputs 10X_V3). Output will be:
 predicted_label.txt
-test.csv - the count matrix
+test.csv - the count matrix (csv can be obtained here: https://drive.google.com/file/d/1XiUqRqf7QOz5NUCan-Zf9RHNyluqVjqw/view?usp=sharing)
 test.hf - used for ACTINN
 
 Example1: 
