@@ -44,7 +44,8 @@ When submitting a job supply the following arguments after the slurm file name:
 - Path to directory with the FASTQs (--fastqs=$2 in slurm file)
 - Path to samples to use in analysis, i.e., beginning of FASTQ names (--sample=$3 in slurm file)
 - Path to transcriptome reference file / folder (--transcriptome=$4 in slurm file)
-- Ex. sbatch input_cellranger_count.slurm run_count_lymphoma /project/Dolatshahi_Lab/MSDS/Clean_Final/cellranger_lymhoma/test test_sample1,test_sample2,test_sample3 /project/Dolatshahi_Lab/MSDS/Clean_Final/refdata-cellranger-GRCh38-3.0.0
+- Ex. sbatch input_cellranger_count.slurm run_count_lymphoma (insert your directory path)/test test_sample1,test_sample2,test_sample3 
+(insert your directory path)/refdata-cellranger-GRCh38-3.0.0
 
 Example: 
 - Name of output directory: run_count_lymphoma
@@ -71,7 +72,9 @@ Directions:
     - Type of single-cell protocol of the input sequencing library, e.g., –dropseq, –chromium, –chromiumV3 (--$3 in slurm file)
     - Transcript to the gene map file, a tsv (tab-separated) file  → default the one provided in the Clean_Final folder, txp2gene.tsv (--tgMap $4)
 
-Ex. sbatch 2_input_run_alevin.slurm /project/Dolatshahi_Lab/MSDS/Clean_Final/cellranger_lymphoma/test/test_sample1_S1_L001_R1_001.fastq.gz /project/Dolatshahi_Lab/MSDS/Clean_Final/cellranger_lymphoma/test/test_sample1_S1_L001_R2_001.fastq.gz chromiumV3 /project/Dolatshahi_Lab/MSDS/Clean_Final/geotyper/txp2gene.tsv
+Ex. sbatch 2_input_run_alevin.slurm (insert your directory path)/test_sample1_S1_L001_R1_001.fastq.gz 
+(insert your directory path)/test_sample1_S1_L001_R2_001.fastq.gz chromiumV3 
+(insert your directory path)/txp2gene.tsv
 
 
 ### 3. Downstream Analyses with knitted html or pdf output
@@ -128,10 +131,10 @@ test.csv - the count matrix
 test.hf - used for ACTINN
 
 Example1: 
-- sbatch actinn.slurm /project/Dolatshahi_Lab/MSDS/Clean_Final/cellranger_pbmc/filtered_feature_bc_matrix/ 10X_V3
+- sbatch actinn.slurm (insert your directory path)/filtered_feature_bc_matrix/ 10X_V3
 
 Example2: 
-- sbatch actinn.slurm /project/Dolatshahi_Lab/MSDS/Clean_Final/cellranger_nsclc/run_count_20k/outs/filtered_feature_bc_matrix 10X_V3
+- sbatch actinn.slurm (insert your directory path)/outs/filtered_feature_bc_matrix 10X_V3
  
  
 Generating a CSV of count matrix:
@@ -152,7 +155,7 @@ Generating Confusion matrices:
 Instructions for running:
  
 cd to directory
-cd /project/Dolatshahi_Lab/MSDS/Clean_Final/geotyper/
+
 load anaconda (only need to do once)
 module load anaconda
 execute script
@@ -160,7 +163,9 @@ python confusion.py nameoffile1.csv nameodfile2.csv nameodoutputfile.csv
  
 Example:
 
-python confusion.py /project/Dolatshahi_Lab/MSDS/Clean_Final/cellranger_pbmc/pbmc_seurat_labels.csv /project/Dolatshahi_Lab/MSDS/Clean_Final/ACTINN/predicted_labelPBMC.txt ACTINN.csv
+python confusion.py 
+(insert your directory path)/pbmc_seurat_labels.csv 
+(insert your directory path)/predicted_labelPBMC.txt ACTINN.csv
 
 
 
